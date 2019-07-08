@@ -2,9 +2,9 @@ const settings = {
   "name": "pantheon-frontity-poc",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.io",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://scalewp.io/",
+      "title": "WordPress at Scale",
+      "description": "WordPress is moving upmarket, powering high-traffic, mission-critical websites. Find out what it takes to run WordPress at scale."
     }
   },
   "packages": [
@@ -18,21 +18,17 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Resources",
+              "/resources/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "About",
+              "/about/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Contribute",
+              "/contribute/"
             ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
           ],
           "featured": {
             "showOnList": false,
@@ -45,7 +41,8 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "api": "https://test.frontity.io/wp-json"
+          "api": "https://scalewp.io/wp-json",
+          "homepage": "/scale"
         }
       }
     },
