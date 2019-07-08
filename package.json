@@ -1,11 +1,20 @@
 {
-  "name": "pantheon-frontity-poc",
+  "name": "pantheon-frontity-proof-of-concept",
+  "description": "Proof of concept showing a Frontity project with Pantheon and Google Cloud Platform",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
-  "description": "Frontity project",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ataylorme/pantheon-frontity-proof-of-concept"
+  },
+  "bugs": {
+    "url" : "https://github.com/ataylorme/pantheon-frontity-proof-of-concept/issues"
+  },
   "keywords": [
-    "frontity"
+    "frontity",
+    "pantheon",
+    "gcp"
   ],
   "scripts": {
     "dev": "frontity dev",
