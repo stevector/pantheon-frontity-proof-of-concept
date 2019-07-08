@@ -2,6 +2,7 @@
   "name": "pantheon-frontity-poc",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
   "description": "Frontity project",
   "keywords": [
     "frontity"
