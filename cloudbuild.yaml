@@ -4,5 +4,4 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'build']
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['functions', 'deploy', 'frontity-server', '--trigger-http', '--runtime', 'nodejs8', '--entry-point', 'default', '--source=$PWD/build']
-  dir: 'build'
+  args: ['functions', 'deploy', 'frontity-server', '--trigger-http', '--runtime', 'nodejs8', '--entry-point', 'default', '--source', 'build']
