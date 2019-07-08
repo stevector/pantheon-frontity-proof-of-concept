@@ -5,11 +5,11 @@
   "private": true,
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ataylorme/pantheon-frontity-proof-of-concept"
+    "type": "git",
+    "url": "https://github.com/ataylorme/pantheon-frontity-proof-of-concept"
   },
   "bugs": {
-    "url" : "https://github.com/ataylorme/pantheon-frontity-proof-of-concept/issues"
+    "url": "https://github.com/ataylorme/pantheon-frontity-proof-of-concept/issues"
   },
   "keywords": [
     "frontity",
@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "dev": "frontity dev",
-    "build": "frontity build",
+    "build": "frontity build && cp build/server.js build/index.js",
     "serve": "frontity serve"
   },
   "prettier": {},
