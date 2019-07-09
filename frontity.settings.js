@@ -15,19 +15,19 @@ const settings = {
           "menu": [
             [
               "Home",
-              "/"
+              "/frontity-server"
             ],
             [
               "Resources",
-              "/resources/"
+              "/frontity-server/resources/"
             ],
             [
               "About",
-              "/about/"
+              "/frontity-server/about/"
             ],
             [
               "Contribute",
-              "/contribute/"
+              "/frontity-server/contribute/"
             ],
           ],
           "featured": {
